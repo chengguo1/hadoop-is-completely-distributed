@@ -23,7 +23,7 @@
     </property>
     <property>
         <name>hadoop.tmp.dir</name>
-        <value>/root/hadoop-2.8.0/data</value>
+        <value>/usr/local/hadoop-3.3.0/data</value>
     </property>
 </configuration>
 
