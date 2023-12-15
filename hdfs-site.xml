@@ -18,7 +18,7 @@
 <configuration>
     <property>
         <name>dfs.namenode.secondary.http-address</name>
-        <value>secondarynamenode:50090</value>
+        <value>secondarynamenode:9870</value>
     </property>
 </configuration>
 
