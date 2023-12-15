@@ -94,6 +94,7 @@
 # Some parts of the shell code may do special things dependent upon
 # the operating system.  We have to set this here. See the next
 # section as to why....
+
 export HDFS_NAMENODE_USER=root
 export HDFS_DATANODE_USER=root
 export HDFS_SECONDARYNAMENODE_USER=root
@@ -101,7 +102,7 @@ export YARN_RESOURCEMANAGER_USER=root
 export YARN_NODEMANAGER_USER=root
 export YARN_PROXYSERVER_USER=root
 export HADOOP_OS_TYPE=${HADOOP_OS_TYPE:-$(uname -s)}
-export JAVA_HOME=/root/jdk1.8.0_391
+export JAVA_HOME=/usr/local/jdk1.8.0_141
  #Extra Java runtime options for some Hadoop commands
 
 # and clients (i.e., hdfs dfs -blah).  These get appended to HADOOP_OPTS for
